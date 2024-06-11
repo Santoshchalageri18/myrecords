@@ -1,0 +1,112 @@
+.health-account {
+  text-align: center;
+  padding: 20px;
+}
+
+.peek {
+  color: #9bdfd9;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add some gap between cards */
+  flex-wrap: wrap; /* Allow cards to wrap */
+}
+
+.card {
+  flex: 1;
+  max-width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background: none;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card button span {
+  margin-left: 10px;
+}
+
+.card .image {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.card .image img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Specific color classes */
+.blue {
+  background-image: url(https://i.postimg.cc/6q6Q2Vw9/1000152258.jpg);
+  background-color: #a8e6cf;
+  color: #000;
+}
+
+.green {
+  background-image: url(https://i.postimg.cc/XJ5CnkLX/1000152250.jpg);
+  background-color: #dcedc1;
+  color: #000;
+}
+
+.yellow {
+  background-image: url(https://i.postimg.cc/mkRNqn4T/1000152254.jpg);
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 1200px) {
+  .card {
+    flex-basis: calc(50% - 20px); /* Two cards per row */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-basis: calc(100% - 20px); /* One card per row */
+    max-width: calc(100% - 20px);
+  }
+}

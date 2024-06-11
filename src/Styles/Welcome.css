@@ -1,0 +1,77 @@
+/* Welcome.css */
+
+.welcome-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .announcement-bar {
+    background-color: #e0f7fa;
+    padding: 10px;
+    color: #00796b;
+  }
+  
+  .announcement-bar a {
+    color: #004d40;
+    text-decoration: underline;
+  }
+  
+  .welcome-content {
+    background: url('https://wallpapercave.com/wp/wp1813040.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome-content h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .get-care-button {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .get-care-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .footer-bar {
+    background-color: #2e7d32;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-button {
+    background-color: white;
+    color: #2e7d32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-button .icon {
+    margin-right: 5px;
+  }
+  
+  .footer-button:hover {
+    background-color: #f1f1f1;
+  }
+  

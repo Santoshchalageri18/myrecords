@@ -1,0 +1,56 @@
+/* Add this to your App.css or a relevant CSS file */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .MuiTypography-h4 {
+    font-size: 1.5rem;
+  }
+
+  .MuiTextField-root {
+    margin-bottom: 16px;
+  }
+
+  .MuiButton-root {
+    margin-top: 16px;
+    padding: 8px 16px;
+  }
+
+  .google-signin {
+    margin: 16px 0;
+  }
+
+  .MuiLink-root {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .MuiContainer-root {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .MuiTypography-h4 {
+    font-size: 1.25rem;
+  }
+
+  .MuiTextField-root {
+    margin-bottom: 12px;
+  }
+
+  .MuiButton-root {
+    margin-top: 12px;
+    padding: 6px 12px;
+  }
+
+  .google-signin {
+    margin: 12px 0;
+  }
+
+  .MuiLink-root {
+    margin-top: 6px;
+  }
+}

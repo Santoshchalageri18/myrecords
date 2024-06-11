@@ -1,0 +1,115 @@
+/* Dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+  }
+  
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .invite-button {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .invite-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .image-content {
+    flex: 10;
+
+  }
+  
+  .text-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .image {
+    width: 50%;
+    height: auto;
+    border-radius: 100px;
+  }
+  
+  .badge {
+    background-color: #43a047;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: flex-start;
+  }
+  
+  .action-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .action-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .action-card .icon {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+  
+  .health-record-icon {
+    background-image: url('data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27iso-8859-1%27?%3e%3c!--%20Generator:%20Adobe%20Illustrator%2019.0.0,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%206.00%20Build%200)%20--%3e%3csvg%20version=%271.1%27%20id=%27Layer_1%27%20xmlns=%27http://www.w3.org/2000/svg%27%20x=%270px%27%20y=%270px%27%20viewBox=%270%200%20309.267%20309.267%27%20style=%27enable-background:new%200%200%20309.267%20309.267;%27%20xml:space=%27preserve%27%3e%3cg%3e%3cpath%20style=%27fill:%23D0994B;%27%20d=%27M280.273,120.972V62.82c0-10.67-8.659-19.329-19.329-19.329H125.64c0,0-18.324-28.994-28.994-28.994%20H48.323c-10.67,0-19.329,8.65-19.329,19.329v87.146H280.273z%27/%3e%3cpath%20style=%27fill:%23E4E7E7;%27%20d=%27M28.994,72.484h251.279V149.8H28.994V72.484z%27/%3e%3cpath%20style=%27fill:%233DB39E;%27%20d=%27M251.279,178.794c32.028,0,57.988,25.969,57.988,57.988c0,32.009-25.959,57.988-57.988,57.988%20c-32.009,0-57.988-25.978-57.988-57.988C193.292,204.764,219.27,178.794,251.279,178.794z%27/%3e%3cpath%20style=%27fill:%23FFFFFF;%27%20d=%27M270.609,227.117h-9.665v-9.665c0-5.345-4.32-9.665-9.665-9.665s-9.665,4.32-9.665,9.665v9.665%20h-9.665c-5.345,0-9.665,4.32-9.665,9.665c0,5.354,4.32,9.665,9.665,9.665h9.665v9.665c0,5.354,4.32,9.665,9.665,9.665%20s9.665-4.31,9.665-9.665v-9.665h9.665c5.345,0,9.665-4.31,9.665-9.665C280.273,231.438,275.953,227.117,270.609,227.117z%27/%3e%3cpath%20style=%27fill:%23F4B459;%27%20d=%27M179.597,236.783c0-39.586,32.106-71.682,71.682-71.682c19.126,0,36.455,7.538,49.318,19.754%20l8.669-73.712c0-10.679-8.659-19.329-19.329-19.329H19.329C8.659,91.814,0,100.463,0,111.143l19.329,164.298%20c0,10.67,8.659,19.329,19.329,19.329h170.609C191.32,281.733,179.597,260.644,179.597,236.783z%27/%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3c/svg%3e');
+  }
+  
+  .prescription-renewal-icon {
+    background-image: url('data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27iso-8859-1%27?%3e%3c!--%20Generator:%20Adobe%20Illustrator%2019.0.0,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%206.00%20Build%200)%20--%3e%3csvg%20version=%271.1%27%20id=%27Layer_1%27%20xmlns=%27http://www.w3.org/2000/svg%27%20x=%270px%27%20y=%270px%27%20viewBox=%270%200%20297%20297%27%20style=%27enable-background:new%200%200%20297%20297;%27%20xml:space=%27preserve%27%3e%3cg%3e%3cg%3e%3cg%3e%3ccircle%20style=%27fill:%23345F41;%27%20cx=%27148.5%27%20cy=%27148.5%27%20r=%27148.5%27/%3e%3c/g%3e%3c/g%3e%3cpath%20style=%27fill:%231F4429;%27%20d=%27M203.735,62.932L65.332,201.294l95.18,95.221c73.929-5.918,132.589-65.976,136.3-140.506%20L203.735,62.932z%27/%3e%3cpath%20style=%27fill:%23D0D5D9;%27%20d=%27M173.25,214.5L173.25,214.5c-22.782,0-41.25-18.468-41.25-41.25v-82.5%20c0-22.782,18.468-41.25,41.25-41.25l0,0c22.782,0,41.25,18.468,41.25,41.25v82.5C214.5,196.032,196.032,214.5,173.25,214.5z%27/%3e%3cpath%20style=%27fill:%23BEC3C6;%27%20d=%27M173.25,49.5L173.25,49.5c-0.812,0-1.616,0.03-2.416,0.076v164.848%20c0.8,0.046,1.605,0.076,2.416,0.076l0,0c22.782,0,41.25-18.468,41.25-41.25v-82.5C214.5,67.968,196.032,49.5,173.25,49.5z%27/%3e%3cpath%20style=%27fill:%231ABC9C;%27%20d=%27M132,130.5v42.75c0,22.782,18.468,41.25,41.25,41.25l0,0c22.782,0,41.25-18.468,41.25-41.25V130.5%20H132z%27/%3e%3cpath%20style=%27fill:%2319A58A;%27%20d=%27M170.834,130.5v83.924c0.8,0.046,1.605,0.076,2.416,0.076l0,0c22.782,0,41.25-18.468,41.25-41.25%20V130.5H170.834z%27/%3e%3ccircle%20style=%27fill:%23FFFFFF;%27%20cx=%2799%27%20cy=%27165%27%20r=%2749.5%27/%3e%3cpath%20style=%27fill:%23D0D5D9;%27%20d=%27M127.675,205.342c2.217-1.579,4.338-3.352,6.327-5.34c1.989-1.989,3.761-4.11,5.34-6.327%20l-69.017-69.017c-2.217,1.58-4.338,3.352-6.327,5.34s-3.761,4.11-5.34,6.327L127.675,205.342z%27/%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3cg%3e%3c/g%3e%3c/svg%3e');
+  }
+  
+  .pharmacy-icon {
+    background-image: url('https://foomedical.com/assets/pharmacy-DeLDhUiJ.svg');
+  }
+  

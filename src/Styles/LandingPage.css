@@ -1,0 +1,54 @@
+.landing-page {
+    font-family: 'Arial, sans-serif';
+    color: #060606;
+    background: url('https://wallpapercave.com/wp/wp2469685.jpg') no-repeat center center scroll;
+    background-size: cover;
+    min-height: 50vh;
+    text-align: left;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .content, .feature {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

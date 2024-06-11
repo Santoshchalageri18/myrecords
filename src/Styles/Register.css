@@ -1,0 +1,25 @@
+.register-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+}
+
+.register-form .button-style {
+  margin-top: 10px;
+}
+
+.register-form .MuiFormControl-root {
+  margin-bottom: 15px;
+}

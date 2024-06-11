@@ -1,0 +1,201 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+/* Define CSS classes with different font families */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply the fonts to the component */
+.whatwedo {
+  font-family: 'Montserrat', sans-serif; /* Default font for the component */
+}
+
+.whatwedo .accordion-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.whatwedo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto; /* Changed to auto for better content flow */
+  padding: 40px;
+  margin-left: 2%;
+  margin-top: 2%;
+  background-color: #f9f9f9;
+}
+
+.left-section1 {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.left-section1 h1 {
+  font-size: 2em;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.left-section1 h2 {
+  font-size: 1.2em;
+  color: #666;
+  font-weight: 400;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  font-weight: 400;
+}
+
+.accordion-title:hover,
+.accordion-title.active {
+  background-color: #efefef;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* Increased max-height for better display */
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+.right-section1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 5%;
+}
+
+.right-section1 img {
+  max-width: 75%;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-section1 {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(1, 0, 0);
+}
+
+.image-text p {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 1213px) and (min-width: 750px) {
+  .whatwedo {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .left-section1 {
+    padding-right: 0;
+  }
+
+  .right-section1 {
+    margin-top: 20px;
+  }
+
+  .accordion-content.open {
+    max-height: 600px; /* Further increased max-height */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whatwedo {
+    flex-direction: column;
+  }
+
+  .left-section1 h1 {
+    font-size: 1.8em;
+  }
+
+  .left-section1 h2 {
+    font-size: 1em;
+  }
+
+  .accordion-title {
+    font-size: 0.9em;
+  }
+
+  .accordion-content.open {
+    max-height: 500px; /* Further increased max-height */
+  }
+
+  .right-section1 {
+    order: 2; /* Ensure image is displayed below accordion content */
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .whatwedo {
+    flex-direction: column;
+  }
+
+  .left-section1 h1 {
+    font-size: 1.5em;
+  }
+
+  .left-section1 h2 {
+    font-size: 0.9em;
+  }
+
+  .accordion-title {
+    font-size: 0.8em;
+  }
+
+  .accordion-content.open {
+    max-height: 400px; /* Adjusted max-height for smaller screens */
+  }
+
+  .right-section1 img {
+    max-width: 100%;
+  }
+
+  .right-section1 {
+    order: 2; /* Ensure image is displayed below accordion content */
+    margin-top: 20px;
+  }
+}
